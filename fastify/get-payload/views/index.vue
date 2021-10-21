@@ -22,7 +22,6 @@ export async function getPayload () {
 export default {
   async setup () {
     const { $payload } = await useHydration({ getPayload })
-    console.log('$payload', $payload)
     return { posts: $payload }
   }
 }

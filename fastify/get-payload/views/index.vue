@@ -15,8 +15,7 @@ export const path = '/'
 
 export async function getPayload () {
   const response = await fetch(`https://jsonplaceholder.typicode.com/posts`)
-  const posts = response.json()
-  console.log('posts', posts)
+  const posts = await response.json()
   return posts
 }
 

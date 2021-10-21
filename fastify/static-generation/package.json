@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "fastify": "^3.17.0",
-    "fastify-vite": "^2.2.0-beta.16",
-    "fastify-vite-vue": "^2.2.0-beta.16",
+    "fastify-vite": "^2.2.0-beta.17",
+    "fastify-vite-vue": "^2.2.0-beta.17",
     "fetch-undici": "^1.0.5",
     "fs-extra": "^10.0.0",
     "node-html-parser": "^5.0.0"

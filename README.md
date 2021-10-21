@@ -2,14 +2,6 @@
 
 Running the examples:
 
-## Nuxt.js
-
-```bash
-cd nuxt
-npm i
-npx nuxt dev
-```
-
 ## fastify-vite (getPayload)
 
 ```bash
@@ -26,7 +18,6 @@ npm i
 node server.js
 ```
 
-
 ## fastify-vite (getPayload + static generation)
 
 ```bash
@@ -35,3 +26,5 @@ npm i
 node server.js # dev mode
 node server.js generate # generate production build
 ```
+
+See also [fastify-vite](https://fastify-vite.dev)'s docs.
